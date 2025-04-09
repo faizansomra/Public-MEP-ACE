@@ -1,4 +1,4 @@
-FROM cp.icr.io/cp/appc/ace:12.0.12.8-r1@sha256:1edd0ca3949fee4df3016f8f142f9c8b64072191aa4bab3c421ca57cacbe8035
+FROM cp.icr.io/cp/appc/ace:12.0.12.0-r1@sha256:33000e4b20570524c44203ba32b047cb752d3935fcd6dfa8b94ee862f75993aa
 USER root
 COPY *.bar /tmp
 RUN export LICENSE=accept \
